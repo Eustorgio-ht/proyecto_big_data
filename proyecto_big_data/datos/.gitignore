@@ -1,0 +1,10 @@
+# Ignorar base de datos y archivos de datos pesados
+datos/analisis_master.db
+datos/*.parquet
+datos/*.csv
+datos/*.zip
+
+datos/
+*.db
+*.parquet
+*.csv

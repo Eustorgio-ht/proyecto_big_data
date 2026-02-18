@@ -1,0 +1,5 @@
+name: 'mi_proyecto_big_data'
+version: '1.0.0'
+config-version: 2
+profile: 'perfil_duckdb' # Este nombre debe coincidir con el del paso siguiente
+model-paths: ["models"]

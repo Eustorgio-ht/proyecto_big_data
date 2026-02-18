@@ -1,0 +1,12 @@
+# Entorno virtual
+venv/
+__pycache__/
+
+# Datos (NUNCA subas los datos crudos o la DB de millones de filas)
+datos/*.parquet
+datos/*.csv
+datos/*.db
+
+# VS Code y carpetas temporales
+.vscode/
+.DS_Store
