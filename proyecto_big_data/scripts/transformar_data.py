@@ -30,7 +30,7 @@ try:
     # 1. Ejecutar transformación
     con.execute(sql_query)
     
-    # 2. Exportar a Parquet para Power BI (Esto hace que Power BI vuele)
+    # 2. Exportar a Parquet para Power BI
     con.execute("COPY fct_amazon_analytics TO 'datos/reporte_final.parquet' (FORMAT 'PARQUET')")
     
     end_time = time.time()
